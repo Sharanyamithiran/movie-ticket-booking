@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Movie Ticket Booking System</h1>
+        <small>Choose your favourite movie, select a showtime, book your tickets and enjoy!</small>
+    </div>
+    <div class="movie-container">
+        <div class="moviecard1">
+            <h2 class="movie-title">Dune</h2>
+            <img src="dune.jpg" alt="dune">
+            <p class="price">150</p>
+            <p class="theme">Scifi,Thriller</p>
+        </div>
+        <div class="moviecard2">
+            <h2 class="movie-title">The Lion King</h2>
+            <img src="lionking.jpg" alt="The lion King">
+            <p class="price">120</p>
+            <p class="theme">Adventure</p>
+        </div>
+        <div class="moviecard3">
+            <h2 class="movie-title">Avengers</h2>
+            <img src="avengers.jpg" alt="Avengers">
+            <p class="price">160</p>
+            <p class="theme">Scifi,action</p>
+        </div>
+    </div>
+    <div class="booking-container">
+        <form class="Booktickets">
+            <h1 class="ticket">Book your tickets</h1>
+            <div class="form-row">
+                <div class="form-group">            
+                    <label>Select Movie</label>
+                    <select class="movie-select">
+                        <option>--Choose Movie--</option>
+                        <option>Dune</option>
+                        <option>The Lion King</option>
+                        <option>Avengers</option>
+                    </select>
+                </div>
+                <div class="form-grp">
+                    <label for="email-input">Email Address</label>
+                    <input type="text" id="email-input" placeholder="Enter your email address"><br>
+                </div>
+            </div><br>
+            <div class="form-row">
+                <label>Select Show Time</label>
+                <select id="showtime-input">
+                    <option>--Choose Show Time--</option>
+                    <option>7.00pm</option>
+                    <option>3.00pm</option>
+                    <option>11.00am</option>
+                </select>
+            </div><br>
+            <div class="form-row">
+                <label for="numberoftickets">Number of Tickets</label>
+                <input type="text" id="numberoftickets" placeholder="Enter number of Tickets">
+            </div><br>
+            <button type="submit" class="ticketbtn">Book Tickets</button><br>
+            <button type="reset" class="resetbtn">Reset</button><br>
+        </form>
+    
+        <div class="bookings">
+            <input type="text" placeholder="Search here..."><br><br>
+            <input class="not" type="text" placeholder="your bookings">
+        </div>
+    </div>
+    <script src="g.js"></script>
+</body>
+</html>

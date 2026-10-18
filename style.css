@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  rgb(57, 57, 75);
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background-color: #1a1a24;
+    color: aliceblue;
+    font-family: monospace;
+    padding: 10px;
+    width: 1370px;
+}
+.navbar .h1{
+    margin: 0 0 8px 0;
+    font-size: 28px;
+}
+.movie-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: rgb(57, 57, 75);
+    height: 350px;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    left: 50px;
+    right: 10px;
+}
+.moviecard1 ,.moviecard2 ,.moviecard3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 260px;
+    background-color: rgb(182, 182, 194);
+    width: 200px;
+    padding: 12px;
+    box-shadow: 0 4px 8px 0;
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+.moviecard1:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px transparent;
+}
+.moviecard2:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px transparent;
+}
+.moviecard3:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px transparent;
+}
+.moviecard1  img{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    
+}
+.moviecard2  img{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+.moviecard3 img{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 190px;
+    border-radius: 10%;
+}
+.moviecard1 ,.moviecard2 ,.moviecard3 p{
+    font-size: 15px;
+    text-align: left;
+}
+.booking-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    background-color: #afb5bc; 
+    padding: 30px;
+    margin: 20px auto;
+    width: 40%;           
+    border-radius: 10px;
+    gap :20px
+}
+.Booktickets{
+    display: flex;
+    flex-direction:column ;
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    align-items: center;
+
+}
+.Booktickets .ticket{
+    font-family: 'Franklin Gothi Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+.Booktickets .form{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   width: 100%;
+   max-width: 500%;
+}
+.form-row{
+    display: flex;
+    width: 100%;
+}
+.bookings{
+    background-color: aliceblue;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    
+}
+.bookings .not{
+     padding: 70px;
+     height: 100px;
+     text-align: center;
+}
+.Booktickets .ticketbtn{
+    background-color: dodgerblue;
+    border: none;
+    padding: 5px 5px;
+}
+.Booktickets .resetbtn{
+    background-color: rgb(121, 123, 125);
+    border: none;
+    padding: 5px 20px;
+}
