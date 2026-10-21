@@ -24,10 +24,8 @@ body{
     flex-direction: row;
     gap: 10px;
     background-color: rgb(57, 57, 75);
-    height: 350px;
     width: 700px;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     left: 50px;
     right: 10px;
 }
@@ -36,6 +34,7 @@ body{
     flex-direction: column;
     width: 200px;
     height: 260px;
+    margin: 50px;
     background-color: rgb(182, 182, 194);
     width: 200px;
     padding: 12px;
